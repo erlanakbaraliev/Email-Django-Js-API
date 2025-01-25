@@ -1,0 +1,12 @@
+textarea {
+    min-height: 400px;
+}
+.read {
+    background-color:bisque;
+}
+.notRead {
+    background-color: white;
+}
+#email-view .card .card-body .btn {
+    margin-right: 10px;
+}
