@@ -5,6 +5,8 @@ from django.db import models
 class User(AbstractUser):
     pass
 
+    class Meta:
+        app_label = 'mail'  # Specify the app name explicitly
 
 class Email(models.Model):
     user = models.ForeignKey("User", on_delete=models.CASCADE, related_name="emails")
